@@ -1,0 +1,9 @@
+<div id="top">
+    {% if session_user %}
+        <span class="topfont">{{ session_user.nickname }}</span>&nbsp;<span class="topfont">|</span>&nbsp;<a href="/logout"  class="topfont">退出</a>&nbsp;&nbsp;
+    {% else %}
+        <a href="/login"  class="topfont">登录</a>&nbsp;<span class="topfont">|</span>&nbsp;<a href="javascript:showRegisterWin();void(0);"  class="topfont">注册</a>
+    {% endif %}
+&nbsp;&nbsp;&nbsp;
+</div>
+<div id="top_tihuan"></div>
