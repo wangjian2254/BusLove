@@ -61,6 +61,7 @@
       <list>
         <option value="$PROJECT_DIR$/develop plan.txt" />
         <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
