@@ -79,6 +79,7 @@ class BusLine(models.Model):
     #公交线路
     city=models.ForeignKey(City,verbose_name=u'公交路线隶属城市')
     name=models.CharField(max_length=20,verbose_name=u'公交名称')
+    group=models.ForeignKey(Group,verbose_name=u'指向小组')
 
 
 class BusSite(models.Model):
